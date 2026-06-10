@@ -15,8 +15,7 @@
 "name": "邬宇发",
 "email": "yufawu22@gmail.com",
 "mobile": "17387170571",
-"github": "https://github.com/OOo0o0OO",
-"workExpYear": ""
+"github": "https://github.com/OOo0o0OO"
 },
 
 "educationList": [
@@ -93,6 +92,10 @@ null
 "award_time": ""
 }
 ],
+
+"aboutme": {
+"aboutme_desc": "计算机科学与技术专业本科生，主要学习方向为 Linux 系统编程、网络编程与 C++ 后端开发。独立完成基于 Reactor 模型的并发服务器以及 Qt 音乐播放器等项目，具备较强的问题定位与工程实践能力。平时注重阅读技术文档与开源项目源码，持续提升系统设计与底层实现能力。"
+},
 
 "theme": {
 "color": "#2f5785",
