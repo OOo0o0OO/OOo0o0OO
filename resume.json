@@ -1,101 +1,130 @@
 {
-    "titleNameMap": {
-        "educationList": "教育背景",
-        "workExpList": "工作经历",
-        "projectList": "项目经验",
-        "skillList": "个人技能",
-        "awardList": "荣誉证书",
-        "workList": "个人作品",
-        "aboutme": "个人评价"
-    },
-    "avatar": {
-        "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
-        "hidden": true
-    },
-    "profile": {
-        "name": "吴宇发",
-        "email": "email.com",
-        "mobile": "Telphone",
-        "github": "Github.com",
-        "workExpYear": "应届生",
-        "positionTitle": "C++ 开发实习生",
-        "blog": "https://blog.csdn.net/2301_80434764?type=blog"
-    },
-    "educationList": [
-        {
-            "edu_time": [
-                "2023.09.01",
-                "至今"
-            ],
-            "school": "云南财经大学",
-            "major": "网络工程",
-            "academic_degree": "本科",
-            "edu_desc": "主修课程：数据结构、算法设计、操作系统、计算机网络、Web开发技术\n专业排名前 5%"
-        }
-    ],
-    "awardList": [
-        {
-            "award_info": "软考中级：网络工程师",
-            "award_time": ""
-        },
-        {
-            "award_info": "大学英语六级 CET6",
-            "award_time": ""
-        },
-        {
-            "award_info": "大学英语四级 CET4",
-            "award_time": ""
-        }
-    ],
-    "workExpList": [],
-    "skillList": [
-        {
-            "skill_name": "编程语言",
-            "skill_desc": "主要使用 C/C++，熟悉 STL 容器与算法、RAII 资源管理思想以及 C++11 常用特性；了解 Python"
-        },
-        {
-            "skill_name": "操作系统",
-            "skill_desc": "掌握 Linux 系统编程，熟悉进程/线程、信号机制、虚拟内存等系统编程内容"
-        },
-        {
-            "skill_name": "计算机网络",
-            "skill_desc": "掌握 Linux 网络编程，使用 socket、epoll、eventfd 实现网络通信与事件驱动，熟悉 TCP/IP 协议栈、HTTP/HTTPS"
-        },
-        {
-            "skill_name": "数据库",
-            "skill_desc": "熟悉 MySQL，理解其索引、事务、锁等机制，能够完成数据存储与查询；了解 Redis 基本数据结构及应用场景"
-        },
-        {
-            "skill_name": "开发工具",
-            "skill_desc": "能够使用 Git 进行版本管理、GDB 进行程序调试与问题定位、Makefile、CMake 完成项目构建；了解 Docker 基本使用"
-        },
-        {
-            "skill_name": "Qt 框架",
-            "skill_desc": "掌握 Qt 下常用控件，使用 Qt Widgets 开发桌面应用程序，熟悉信号槽机制、Qt 多线程及网络编程接口，了解 QPainter 等图形绘制接口"
-        }
-    ],
-    "projectList": [
-        {
-            "project_name": "仿 Muduo 实现并发服务器",
-            "project_role": "独立开发",
-            "project_time": "2026.05 - 2026.06",
-            "project_desc": "技术栈：C++11、Linux、epoll、eventfd、线程池。参考 Muduo 网络库设计思想，实现基于 One Loop Per Thread 模型的网络服务器框架，支持事件驱动、定时任务及多线程处理。",
-            "project_content": "1. 基于 epoll 实现事件驱动模型，设计并实现 EventLoop、Channel、Poller 等核心模块。\n2. 使用 eventfd 实现跨线程任务唤醒机制，结合线程池与任务队列，完美支持 One Loop Per Thread 运行模式。\n3. 实现时间轮定时器管理非活跃连接，有效释放系统资源。\n4. 经 90 分钟压测（wrk，100 并发），吞吐量稳定在 1700+ QPS，916 万次请求零错误，内存零增长，文件描述符无泄漏。\n源码链接：https://github.com/OOo0o0OO/OneThreadOneLoopProject.git"
-        },
-        {
-            "project_name": "桌面音乐播放器客户端",
-            "project_role": "独立开发",
-            "project_time": "2026.04 - 2026.05",
-            "project_desc": "技术栈：C++、Qt Widgets、QMediaPlayer、TagLib。基于 Qt 开发的桌面音乐播放器，实现本地音乐管理、音频播放、播放列表展示等功能，支持歌曲信息解析与封面显示。",
-            "project_content": "1. 使用 QMediaPlayer 实现音频核心播放控制，并基于信号槽机制实现界面与播放逻辑的完全解耦。\n2. 引入 TagLib 第三方库，精准解析本地歌曲的标题、歌手、专辑及封面等元数据信息。\n3. 精心设计数据共享与状态同步机制，保证本地音乐、收藏列表等多个页面间的数据一致性。\n源码链接：https://github.com/OOo0o0OO/ThisNotPlayerProject.git"
-        }
-    ],
-    "workList": [],
-    "aboutme": {
-        "aboutme_desc": "本人是网络工程专业本科生，具备扎实的网络与系统编程底蕴。专注于 C++ 后端及客户端开发，熟练掌握 Linux 环境下的高性能并发模型设计以及 Qt 界面开发。通过了软考中级网络工程师认证，具备良好的工程规范与独立解决技术难题的能力，期待在 C++ 开发岗位上贡献力量。"
-    },
-    "theme": {
-        "color": "#2f5785",
-        "tagColor": "#8bc34a"
-    }
+"titleNameMap": {
+"educationList": "教育背景",
+"workExpList": "校园经历",
+"projectList": "项目经历",
+"skillList": "专业技能",
+"awardList": "荣誉证书",
+"workList": "个人作品",
+"aboutme": "个人评价"
+},
+
+"avatar": {
+"src": "",
+"hidden": true
+},
+
+"profile": {
+"name": "吴宇发",
+"email": "你的邮箱",
+"mobile": "你的电话",
+"github": "https://github.com/OOo0o0OO",
+"workExpYear": ""
+},
+
+"educationList": [
+{
+"edu_time": [
+"2023.09",
+null
+],
+"school": "云南财经大学",
+"major": "计算机科学与技术",
+"academic_degree": "本科"
+}
+],
+
+"skillList": [
+{
+"skill_name": "编程语言",
+"skill_desc": "主要使用 C/C++，熟悉 STL 容器与算法、RAII 资源管理思想以及 C++11 常用特性；了解 Python"
+},
+{
+"skill_name": "操作系统",
+"skill_desc": "掌握 Linux 系统编程，熟悉进程/线程、信号机制、虚拟内存等系统编程内容"
+},
+{
+"skill_name": "计算机网络",
+"skill_desc": "掌握 Linux 网络编程，使用 socket、epoll、eventfd 实现网络通信与事件驱动，熟悉 TCP/IP 协议栈、HTTP/HTTPS"
+},
+{
+"skill_name": "数据库",
+"skill_desc": "熟悉 MySQL，理解其索引、事务、锁等机制，能够完成数据存储与查询；了解 Redis 基本数据结构及应用场景"
+},
+{
+"skill_name": "开发工具",
+"skill_desc": "能够使用 Git 进行版本管理、GDB 进行程序调试与问题定位、Makefile、CMake 完成项目构建；了解 Docker 基本使用"
+},
+{
+"skill_name": "Qt",
+"skill_desc": "掌握 Qt 下常用控件，使用 Qt Widgets 开发桌面应用程序，熟悉信号槽机制、Qt 多线程及网络编程接口，了解 QPainter 等图形绘制接口"
+}
+],
+
+"workExpList": [
+{
+"company_name": "文化管理书院",
+"department_name": "图书馆服务台",
+"work_time": [
+"2023.10",
+"2024.06"
+],
+"work_desc": "负责读者咨询接待、基础问题解答及日常秩序维护；协助处理图书馆借阅相关问题，提升沟通与问题处理能力。"
+}
+],
+
+"projectList": [
+{
+"project_name": "仿 Muduo 实现并发服务器",
+"project_role": "独立开发",
+"project_time": "2026.05 - 2026.06",
+"project_desc": "参考 Muduo 网络库设计思想，实现基于 One Loop Per Thread 模型的网络服务器框架，支持事件驱动、定时任务及多线程处理。",
+"project_content": "1. 基于 epoll 实现事件驱动模型\n2. 设计并实现 EventLoop、Channel、Poller 等核心模块\n3. 使用 eventfd 实现跨线程任务唤醒机制\n4. 实现线程池与任务队列，支持 One Loop Per Thread 运行模式\n5. 实现时间轮定时器管理非活跃连接\n6. 90分钟压测（wrk，100并发）吞吐量稳定在 1700+ QPS，916万次请求零错误，内存零增长，文件描述符无泄漏\n7. 项目源码：https://github.com/OOo0o0OO/OneThreadOneLoopProject"
+},
+
+
+{
+  "project_name": "桌面音乐播放器客户端",
+  "project_role": "独立开发",
+  "project_time": "2026.04 - 2026.05",
+  "project_desc": "基于 Qt 开发的桌面音乐播放器，实现本地音乐管理、音频播放、播放列表展示等功能，支持歌曲信息解析与封面显示。",
+  "project_content": "1. 使用 QMediaPlayer 实现音频播放控制\n2. 使用 TagLib 解析歌曲标题、歌手、专辑及封面信息\n3. 基于信号槽机制实现界面与播放逻辑解耦\n4. 支持歌曲元数据与封面解析\n5. 实现本地音乐、收藏列表等页面的数据共享与状态同步\n6. 项目源码：https://github.com/OOo0o0OO/ThisNotPlayerProject"
+}
+
+],
+
+"awardList": [
+{
+"award_info": "软考中级：网络工程师",
+"award_time": "2025"
+},
+{
+"award_info": "大学英语四级（CET-4）",
+"award_time": ""
+},
+{
+"award_info": "大学英语六级（CET-6）",
+"award_time": ""
+}
+],
+
+"workList": [
+{
+"work_name": "个人技术博客",
+"work_link": "https://blog.csdn.net/2301_80434764"
+},
+{
+"work_name": "GitHub",
+"work_link": "https://github.com/OOo0o0OO"
+}
+],
+
+"aboutme": {
+"aboutme_desc": "计算机科学与技术专业本科生，主要学习方向为 Linux 系统编程、网络编程与 C++ 后端开发。独立完成基于 Reactor 模型的并发服务器以及 Qt 音乐播放器等项目，具备较强的问题定位与工程实践能力。平时注重阅读技术文档与开源项目源码，持续提升系统设计与底层实现能力。"
+},
+
+"theme": {
+"color": "#2f5785",
+"tagColor": "#8bc34a"
+}
 }
