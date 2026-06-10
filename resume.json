@@ -3,9 +3,7 @@
 "educationList": "教育背景",
 "projectList": "项目经历",
 "skillList": "专业技能",
-"awardList": "荣誉证书",
-"workList": "个人作品",
-"aboutme": "个人评价"
+"awardList": "荣誉证书"
 },
 
 "avatar": {
@@ -29,7 +27,8 @@ null
 ],
 "school": "云南财经大学",
 "major": "计算机科学与技术",
-"academic_degree": "本科"
+"academic_degree": "本科",
+"academic_desc": "主修课程：数据结构、算法设计、操作系统、计算机网络、Web开发技术\n专业排名前 5%"
 }
 ],
 
@@ -94,21 +93,6 @@ null
 "award_time": ""
 }
 ],
-
-"workList": [
-{
-"work_name": "个人技术博客",
-"work_link": "https://blog.csdn.net/2301_80434764"
-},
-{
-"work_name": "GitHub",
-"work_link": "https://github.com/OOo0o0OO"
-}
-],
-
-"aboutme": {
-"aboutme_desc": "计算机科学与技术专业本科生，主要学习方向为 Linux 系统编程、网络编程与 C++ 后端开发。独立完成基于 Reactor 模型的并发服务器以及 Qt 音乐播放器等项目，具备较强的问题定位与工程实践能力。平时注重阅读技术文档与开源项目源码，持续提升系统设计与底层实现能力。"
-},
 
 "theme": {
 "color": "#2f5785",
