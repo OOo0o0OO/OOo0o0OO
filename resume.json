@@ -1,7 +1,6 @@
 {
 "titleNameMap": {
 "educationList": "教育背景",
-"workExpList": "校园经历",
 "projectList": "项目经历",
 "skillList": "专业技能",
 "awardList": "荣誉证书",
@@ -15,9 +14,9 @@
 },
 
 "profile": {
-"name": "吴宇发",
-"email": "你的邮箱",
-"mobile": "你的电话",
+"name": "邬宇发",
+"email": "yufawu22@gmail.com",
+"mobile": "17387170571",
 "github": "https://github.com/OOo0o0OO",
 "workExpYear": ""
 },
@@ -58,18 +57,6 @@ null
 {
 "skill_name": "Qt",
 "skill_desc": "掌握 Qt 下常用控件，使用 Qt Widgets 开发桌面应用程序，熟悉信号槽机制、Qt 多线程及网络编程接口，了解 QPainter 等图形绘制接口"
-}
-],
-
-"workExpList": [
-{
-"company_name": "文化管理书院",
-"department_name": "图书馆服务台",
-"work_time": [
-"2023.10",
-"2024.06"
-],
-"work_desc": "负责读者咨询接待、基础问题解答及日常秩序维护；协助处理图书馆借阅相关问题，提升沟通与问题处理能力。"
 }
 ],
 
