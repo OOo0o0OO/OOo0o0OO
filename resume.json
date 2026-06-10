@@ -60,14 +60,14 @@
       "project_role": "独立开发",
       "project_time": "2026.05 - 2026.06",
       "project_desc": "参考 Muduo 网络库设计思想，实现基于 One Loop Per Thread 模型的网络服务器框架，支持事件驱动、定时任务及多线程处理。",
-      "project_content": "1. 基于 epoll 实现事件驱动模型\n2. 设计并实现 EventLoop、Channel、Poller 等核心模块\n3. 使用 eventfd 实现跨线程任务唤醒机制\n4. 实现线程池与任务队列，支持 One Loop Per Thread 运行模式\n5. 实现时间轮定时器管理非活跃连接\n6. 90分钟压测（wrk，100并发）吞吐量稳定在 1700+ QPS，916万次请求零错误，内存零增长，文件描述符无泄漏\n7. 项目源码：https://github.com/OOo0o0OO/OneThreadOneLoopProject"
+      "project_content": "\n1. 基于 epoll 实现事件驱动模型\n2. 设计并实现 EventLoop、Channel、Poller 等核心模块\n3. 使用 eventfd 实现跨线程任务唤醒机制\n4. 实现线程池与任务队列，支持 One Loop Per Thread 运行模式\n5. 实现时间轮定时器管理非活跃连接\n6. 90分钟压测（wrk，100并发）吞吐量稳定在 1700+ QPS，916万次请求零错误，内存零增长，文件描述符无泄漏\n7. 项目源码：https://github.com/OOo0o0OO/OneThreadOneLoopProject"
     },
     {
       "project_name": "桌面音乐播放器客户端",
       "project_role": "独立开发",
       "project_time": "2026.04 - 2026.05",
       "project_desc": "基于 Qt 开发的桌面音乐播放器，实现本地音乐管理、音频播放、播放列表展示等功能，支持歌曲信息解析与封面显示。",
-      "project_content": "1. 使用 QMediaPlayer 实现音频播放控制\n2. 使用 TagLib 解析歌曲标题、歌手、专辑及封面信息\n3. 基于信号槽机制实现界面与播放逻辑解耦\n4. 支持歌曲元数据与封面解析\n5. 实现本地音乐、收藏列表等页面的数据共享与状态同步\n6. 项目源码：https://github.com/OOo0o0OO/ThisNotPlayerProject"
+      "project_content": "\n1. 使用 QMediaPlayer 实现音频播放控制\n2. 使用 TagLib 解析歌曲标题、歌手、专辑及封面信息\n3. 基于信号槽机制实现界面与播放逻辑解耦\n4. 支持歌曲元数据与封面解析\n5. 实现本地音乐、收藏列表等页面的数据共享与状态同步\n6. 项目源码：https://github.com/OOo0o0OO/ThisNotPlayerProject"
     }
   ],
   "awardList": [
